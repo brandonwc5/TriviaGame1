@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script style="text/javascript" src="assets/javascript/app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href= "assets/css/style.css">
+</head>
+<body>
+<!-- Jumbotron for Title -->
+    <div class="jumbotron">
+        <h1 class="text-center">Trivia Game</h1>
+    </div>
+    <div class="timer"></div>
+    <div class="container">
+        <button type="button btn-danger" id="start" style = "width: 340px; height: 180px; margin-left: 400px">
+            <p style="font-family: 'Press Start 2P', cursive; font-size: -webkit-xxx-large">Start!</p>
+        </button>
+        <div class="row">
+            <div class= "hidden">
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <p>Questions</p>
+                        </div>
+                        <div class="panel-body">
+                            <p id="Questions"></p>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-lg-6">
+                <div class="panel panel-default">
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
